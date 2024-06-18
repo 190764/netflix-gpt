@@ -15,6 +15,9 @@
 -Created Redux Storewith userSlice
 -Implemented SignOut
 -Fetch from TMDB Movies
+-Added hardcoded values to the constant files
+-Register TMDB API and create an app and get access token
+-Get data from TMDB now playing movies list API 
 
 
 # Features
