@@ -7,7 +7,7 @@ const useNowPlayingMovies=()=>{
 const dispatch=useDispatch();
 
 const getNowPlayingMovies=async ()=>{
-  const data=await fetch("https://api.themoviedb.org/3/movie/popular?api_key=57b9d7f9613cc5fab7bc2d6956d4a077");
+  const data=await fetch("https://api.themoviedb.org/3/movie/now_playing?api_key=57b9d7f9613cc5fab7bc2d6956d4a077");
   const json=await data.json();
   console.log(json.results);
   dispatch(addNowPlayingMovies(json.results));
