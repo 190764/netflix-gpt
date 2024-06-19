@@ -18,6 +18,20 @@
 -Added hardcoded values to the constant files
 -Register TMDB API and create an app and get access token
 -Get data from TMDB now playing movies list API 
+-Custom hook for nowPlayingMovie
+-Create movieSlice
+-Planninig for MainContainer and SecondaryContainer
+-Fetch data for trailer video
+-Embedded the Youtube video and make it autoplay and mute
+-Using Tailwind CSS to make main container beautiful
+-Build Secondary Component
+-Build Movie list
+-Build Movie card
+-TMDB image CDN URL
+-use other hooks like nowPlayingMovie such as for upcoming,top rated and popular movies
+-GPT Search Bar
+-Multilingual Support
+
 
 
 # Features
